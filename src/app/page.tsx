@@ -73,7 +73,7 @@ export default function Home() {
               name="minDiameter"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Min Diameter</FormLabel>
+                  <FormLabel>Min Diameter (km)</FormLabel>
                   <FormControl>
                     <Input {...field} />
                   </FormControl>
@@ -88,7 +88,7 @@ export default function Home() {
               name="maxDiameter"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Max Diameter</FormLabel>
+                  <FormLabel>Max Diameter (km)</FormLabel>
                   <FormControl>
                     <Input {...field} />
                   </FormControl>
@@ -103,7 +103,7 @@ export default function Home() {
               name="relativeVelocity"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Relative Velocity</FormLabel>
+                  <FormLabel>Relative Velocity (km/s)</FormLabel>
                   <FormControl>
                     <Input {...field} />
                   </FormControl>
@@ -118,12 +118,12 @@ export default function Home() {
               name="missDistance"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Miss Distance</FormLabel>
+                  <FormLabel>Miss Distance (km)</FormLabel>
                   <FormControl>
                     <Input {...field} />
                   </FormControl>
                   <FormDescription>
-                    Distance in kilometers which the Asteroid missed the Earth.
+                    Distance which the Asteroid missed the Earth.
                   </FormDescription>
                 </FormItem>
               )}
@@ -133,7 +133,7 @@ export default function Home() {
               name="magnitude"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Absolute Magnitude</FormLabel>
+                  <FormLabel>Absolute Magnitude (M)</FormLabel>
                   <FormControl>
                     <Input {...field} />
                   </FormControl>
