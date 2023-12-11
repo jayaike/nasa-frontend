@@ -178,7 +178,7 @@ export default function Home() {
             </AlertDialogTitle>
             <AlertDialogDescription className="text-center">
               Our ML model has predicted that this Asteroid is{" "}
-              {data?.isHazardous ? <>Hazardous</> : <>Not Hazardous</>} to the
+              {data?.isHazardous ? <>hazardous</> : <>not hazardous</>} to the
               Earth with a confidence of {data?.probability}%
             </AlertDialogDescription>
           </AlertDialogHeader>
