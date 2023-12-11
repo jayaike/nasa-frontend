@@ -155,7 +155,7 @@ export default function Home() {
         open={!!data}
         onOpenChange={(v) => {
           if (v) return;
-
+          reset();
           form.reset({
             maxDiameter: "" as any,
             minDiameter: "" as any,
@@ -163,7 +163,6 @@ export default function Home() {
             missDistance: "" as any,
             magnitude: "" as any,
           });
-          reset();
         }}
       >
         <AlertDialogContent>
