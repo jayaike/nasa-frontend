@@ -55,7 +55,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="max-w-md mx-auto pt-10">
+      <div className="max-w-md mx-auto py-10 px-4">
         <div className="text-center mb-4">
           <ModeToggle />
         </div>
